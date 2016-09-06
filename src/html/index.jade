@@ -1,0 +1,24 @@
+doctype html
+html(lang="es")
+  head
+    title="Pasatiempos de La Region"
+    link(rel="stylesheet", href="css/bootstrap.min.css", media="screen", title="no title")
+    link(rel="stylesheet", href="css/animate.min.css", media="screen", title="no title")
+    link(rel="stylesheet", href="css/nvd3.min.css", media="screen", title="no title")
+    script(src="js/jquery.min.js")
+    script(src="js/bootstrap.min.js")
+    script(src="js/angular.min.js")
+    script(src="js/angular-animate.min.js")
+    script(src="js/angular-route.min.js")
+    script(src="js/angular-nvd3.min.js")
+    script(src="js/lazy.min.js")
+    script(src="app/app.js")
+    link(rel="stylesheet", href="css/main.css", media="screen", title="no title")
+    
+  body(ng-app="MyApp")
+    div(ng-controller="mainCtl").container
+      div.row
+        div.col-md-12.text-center
+          h1.header.animated.fadeInOut(ng-if="initialLoad") {{message}}
+      div.row
+        div(ng-view)

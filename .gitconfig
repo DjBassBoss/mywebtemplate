@@ -1,0 +1,8 @@
+[user]
+	name = Miguel borrajo Vázquez
+	email = mborrajo@mborrajo.com
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	interactive = auto

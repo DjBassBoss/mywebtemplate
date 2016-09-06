@@ -1,0 +1,35 @@
+{
+  "name": "mytemplate",
+  "version": "1.0.0",
+  "description": "My Web Template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && gulp buildAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-nvd3": "^1.0.9",
+    "angular-route": "^1.5.8",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "lazy.js": "^0.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
