@@ -1,6 +1,6 @@
 .DS_Store
 *~
-
+.gitconfig
 node_modules/
 
 dist/
